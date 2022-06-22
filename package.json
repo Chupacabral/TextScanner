@@ -1,4 +1,15 @@
 {
   "name": "@chupacabral/textscanner",
-  "version": "0.0.1"
+  "version": "0.0.2",
+  "description": "Convenient lexical scanner inspired by Ruby StringScanner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chupacabral/TextScanner"
+  },
+  "main": "index.js",
+  "keywords": [
+    "stringscanner",
+    "scanner"
+  ]
 }
