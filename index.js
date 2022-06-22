@@ -39,7 +39,7 @@ class TextScanner {
   }
 
   peek(n) {
-    if (n <= 0) {c return '' }
+    if (n <= 0) { return '' }
     return this.text.slice(this.pos, this.pos + n)
   }
 
