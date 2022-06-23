@@ -1,8 +1,10 @@
 {
   "name": "@chupacabral/textscanner",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Convenient lexical scanner inspired by Ruby StringScanner",
-  "author": { "name": "Chupacabral" },
+  "author": {
+    "name": "Chupacabral"
+  },
   "license": "MIT",
   "homepage": "https://github.com/Chupacabral/TextScanner",
   "repository": {

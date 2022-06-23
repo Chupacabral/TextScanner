@@ -2,7 +2,7 @@
 ![NPM Version](https://img.shields.io/github/package-json/v/chupacabral/textscanner?color=BC0000&logo=npm&style=for-the-badge) &nbsp;
 ![License](https://img.shields.io/npm/l/@chupacabral/textscanner?color=%23007EC6&style=for-the-badge)
 
-<font size='6px'>**NOTE: NOT READY FOR ACTUAL USE YET**</font>\
+<font size='10px'>**NOTE: NOT READY FOR ACTUAL USE YET**</font>\
 *I mean, it works as described, but the current functionality is notably less
 than what I'm intending to have by the end.*
 
@@ -10,10 +10,23 @@ than what I'm intending to have by the end.*
 
 Simple, convenient, but customizable lexical scanner. Inspired by, but distinct from, Ruby's StringScanner.
 
+## How To Install
+First, make sure you have Node.js and NPM ready to go on your machine.
+
+Then, in the folder with your code, enter on a command line:
+```ps
+npm install @chupacabral/textscanner
+```
+
+To install it for use everywhere on your computer:
+```ps
+npm install -g @chupacabral/textscanner
+```
+
 ## How To Use
 Instantiate a TextScanner object like so:
 ```js
-var TextScanner = require('textscanner')
+var TextScanner = require('@chupacabral/textscanner')
 
 let scanner = new TextScanner('Hello, World!')
 ```
